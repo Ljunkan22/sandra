@@ -8,4 +8,54 @@
 
 body{
     font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    background-color: #0A0403;
+}
+
+/* heading and logo */
+
+h1, h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #AA5639;
+}
+
+#logo{
+    font-family: 'Oooh Baby', sans-serif;
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+/* navigation links */
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #AA5639;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
