@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Oswald:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-body{
+body {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     color: #fff;
@@ -15,14 +15,14 @@ body{
 
 /* heading and logo */
 
-h1, h2{
+h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #AA5639;
 }
 
-#logo{
+#logo {
     font-family: 'Oooh Baby', sans-serif;
     float: left;
     font-size: 280%;
@@ -30,18 +30,18 @@ h1, h2{
     text-transform: capitalize;
 }
 
-#menu, #logo{
-    line-height: 75px;
+#menu, #logo {
+    line-height: 100px;
 }
 
 /* navigation links */
 
-#menu{
-    font-size: 110%;
+#menu {
+    font-size: 130%;
     letter-spacing: 4px;
 }
 
-#menu li{
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -53,9 +53,25 @@ h1, h2{
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 3px solid #AA5639;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 3px solid #AA5639;
+}
+
+/* hero image and webbsite info */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/heroimge.jpg');
+    background-size: cover;
 }
