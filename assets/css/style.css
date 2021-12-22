@@ -9,6 +9,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    font-weight: bold;
     color: #fff;
     background-color: #0A0403;
 }
@@ -97,5 +98,24 @@ h1, h2 {
 
 #cover-text li {
     list-style: none;
-    
+}
+
+#events div {
+    background-color: #AA5639;
+    width: 25%;
+    height: 400px;
+    float: left;
+    padding: 30px 0 0 10px;
+    border: 10px solid #0A0403;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#events div h2 {
+    color: rgb(255, 255, 255);
+}
+
+#event p {
+    letter-spacing: 0;
 }
