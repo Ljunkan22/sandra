@@ -14,6 +14,11 @@ body {
     background-color: #0A0403;
 }
 
+p {
+    font-weight: 100;
+    font-size: 110%;
+}
+
 /* heading and logo */
 
 h1, h2 {
@@ -112,6 +117,8 @@ h1, h2 {
     box-sizing: border-box;
     text-align: center;
     letter-spacing: 4px;
+    margin-top: 20px;
+
 }
 
 #events div h2 {
@@ -124,6 +131,11 @@ h1, h2 {
 
 #events img {
     height: 100%;
-    width: 35%;
+    width: 300px;
     float: left;
 }
+
+ h4 {
+     padding-top: 10%;
+     font-size: 200%;
+ }
