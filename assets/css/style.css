@@ -107,17 +107,25 @@ h1, h2 {
 
 /* event times */
 
-#events div {
+#events {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     background-color: #88452e;
+    overflow: hidden;
+}
+
+#events div {
+    
     width: 100%;
     height: 400px;
     float: left;
     padding: 30px;
-    border: 10px solid #0A0403;
+    border: 20px solid #0A0403;
     box-sizing: border-box;
     text-align: center;
     letter-spacing: 4px;
-    margin-top: 20px;
 
 }
 
@@ -136,6 +144,25 @@ h1, h2 {
 }
 
  h4 {
-     padding-top: 10%;
      font-size: 200%;
  }
+
+ /* footer */
+footer {
+     text-align: center;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+.media > li {
+    display: inline;
+   
+}
+
+.media i {
+    font-size: 200%;
+    padding: 3%;
+    color: #fff;
+}
