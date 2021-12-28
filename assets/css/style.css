@@ -28,6 +28,10 @@ h1, h2 {
     color: #AA5639;
 }
 
+header {
+    height: 100px;
+}
+
 #logo {
     font-family: 'Oooh Baby', sans-serif;
     float: left;
@@ -156,7 +160,10 @@ h1, h2 {
 
  /* footer */
 footer {
-     text-align: center;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
 }
 
 footer h2 {
@@ -165,7 +172,18 @@ footer h2 {
 
 .media > li {
     display: inline;
-   
+    color: #AA5639;
+}
+
+.adress {
+    float: left;
+    margin-left: 10%;
+    margin-right: 60px;
+}
+
+.contact {
+    float: right;
+    margin-right: 10%;
 }
 
 .media i {
@@ -174,5 +192,18 @@ footer h2 {
     color: #AA5639;
 }
 
-/* about uss  */
+/* about uss secton */
+#about-uss-text {
+    background-color: #AA5639;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: 20px solid #0A0403;
+    
+}
 
+#about-uss-text h2 {
+    color: #fff;
+}
