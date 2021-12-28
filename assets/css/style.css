@@ -116,6 +116,13 @@ h1, h2 {
     overflow: hidden;
 }
 
+#events h1 {
+    text-align: center;
+    background-color: #0A0403;
+    color: #AA5639;
+    font-size: 280%;
+}
+
 #events div {
     
     width: 100%;
