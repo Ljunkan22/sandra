@@ -192,19 +192,53 @@ footer h2 {
     color: #AA5639;
 }
 
-/* about uss secton */
-#about-uss-text {
-    background-color: #AA5639;
-    background-size: cover;
-    height: 100%;
+.container {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container h2 {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .one {
     width: 50%;
+    height: 100%;
+    background: #88452e;
+    float: left;
+    padding: 10px;
+  }
+
+  .one img {
+      float: right;
+      border-radius: 50%;
+  }
+  
+  .two {
+    margin-left: 50%;
+    height: 100%;
+    background: url('../images/sandra-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 10px;
+  }
+
+/* about uss secton/
+#about-uss-text div {
+    background-color: #AA5639;
+    height: 100%;
+    width: 25%;
     text-align: center;
     padding: 10px;
     border: 20px solid #0A0403;
+    box-sizing: border-box;
     
-}
+} *
 
-/* aboute us text */
+/* aboute us text 
 #about-uss-text h2 {
     color: #fff;
 }
@@ -215,4 +249,5 @@ p img {
     background-color: #fff;
     float: right;
     border-radius: 100px;
-}
+}*/
+
