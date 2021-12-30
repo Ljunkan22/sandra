@@ -14,6 +14,11 @@ body {
     background-color: #0A0403;
 }
 
+#max-width-limit {
+    width: 1200px;
+    margin: auto;
+}
+
 p {
     font-weight: 100;
     font-size: 110%;
@@ -199,6 +204,7 @@ footer h2 {
     margin: auto;
     padding: 10px;
     text-align: center;
+    box-sizing: border-box;
   }
 
   .container h2 {
@@ -242,12 +248,12 @@ footer h2 {
     text-align: center;
     color: #fff;
     background-color: rgba(136, 69, 46, 0.6);
-    max-width: 33%;
+    max-width: 500px;
 
 
-    position: absolute;
+    position: relative;
     top: 15%;
-    left: 33%;
+    left: 350px;
     padding: 30px;
 }
 
@@ -294,4 +300,77 @@ footer h2 {
 
 #message:hover {
     border-color: #88452e;
+}
+
+/* For medium screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #max-width-limit {
+        width: 100%;
+        margin: 0;
+    }
+
+    .cover-form {
+        left: 0;
+        margin: auto;
+    }
+}
+
+/* For medium screen sizes from 767px wide and down */
+@media screen and (max-width: 767px) {
+    #max-width-limit {
+        width: 100%;
+        margin: 0;
+    }
+
+    .cover-form {
+        left: 0;
+        margin: auto;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    #events div {
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 30px;
+        border: 20px solid #0A0403;
+        box-sizing: border-box;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+
+    #events img {
+        height: 100%;
+        width: 100%;
+        float: none;
+    }
+
+    .adress {
+        float: none;
+        margin-right: 0;
+    }
+    
+    .contact {
+        float: none;
+    }
+    .container {
+        height: 100%;
+        box-sizing: border-box;
+      }
+      
+      .one {
+        width: 100%;
+        height: 100%;
+        float: none;
+        box-sizing: border-box;
+      }
+    
+      .two {
+        margin-left: 0;
+        height: 400px;
+      }
+      
 }
