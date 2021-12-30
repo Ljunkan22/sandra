@@ -373,4 +373,17 @@ footer h2 {
         height: 400px;
       }
       
+      #logo {
+        font-family: 'Oooh Baby', sans-serif;
+        float: left;
+        font-size: 280%;
+        margin-left: 30px;
+        text-transform: capitalize;
+    }
+    
+    #menu, #logo {
+        line-height: 50px;
+        text-align: center;
+    }
+  
 }
