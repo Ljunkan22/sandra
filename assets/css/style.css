@@ -110,6 +110,10 @@ header {
     position: absolute;
 }
 
+#cover-text p {
+    font-size: 100%;
+    font-weight: bold;
+}
 
 /* event times */
 
