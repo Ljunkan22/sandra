@@ -110,6 +110,11 @@ header {
     position: absolute;
 }
 
+#cover-text h1 {
+    font-size: 100%;
+    color: #b3470c;
+}
+
 #cover-text p {
     font-size: 100%;
     font-weight: bold;
